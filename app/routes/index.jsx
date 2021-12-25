@@ -1,8 +1,7 @@
-
-export const loader = async ({ request, context }) => {
-  console.log("LOADER")
-  console.log("context.env: ", context?.env)
-  console.log("MY_ENV_VAR: ", MY_ENV_VAR)
+export const loader = async ({request, context}) => {
+  console.log("-- LOADER --")
+  console.log('context.env: ', context?.env)
+  return null
 }
 
 export default function Index() {

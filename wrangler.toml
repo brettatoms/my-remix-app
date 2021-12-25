@@ -1,2 +1,2 @@
 [vars]
-MY_ENV_VAR = "tomlvalue"
+TOML_VAR = "tomlvalue"
